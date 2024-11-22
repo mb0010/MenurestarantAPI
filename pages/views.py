@@ -98,4 +98,4 @@ class OrderRetrieveUpdateAPIView(RetrieveUpdateAPIView):
 
 class OrderDestroyAPIView(DestroyAPIView):
     queryset = Order.objects.all()
-    
+
